@@ -44,12 +44,12 @@ if st.button("Submit"):
 
         st.write(
             f"MENTAL IDIOT {name}! "
-            "Your personality analysis is complete..."
+            "Your personality analysis is complete and it shows how much of a bloody idiot you are"
         )
 
         st.warning(
-            "ALL information was saved. "
-            "This will be sent to FBI and CIA"
+            "🚨🚨ALL information was saved.🚨🚨"
+            "🚨🚨This will be sent to FBI and CIA and RAW and Indian Police🚨🚨"
         )
         st.header("WATCH THIS VIDEO OR ELSE YOU'LL BE TRACKED DOWN and HIT")
 
