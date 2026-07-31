@@ -2,11 +2,10 @@ import streamlit as st
 import time
 
 st.set_page_config(
-    page_title="2026 Fun Survey",
-    page_icon="😂"
+    page_title="Survey",
 )
 
-st.title("😂 2026 Fun Survey")
+st.title("Survey")
 
 name = st.text_input("Name")
 age = st.number_input("Age", min_value=1, max_value=100)
@@ -41,16 +40,16 @@ if st.button("Submit"):
 
         st.balloons()
 
-        st.header("😂 GOTCHA!")
+        st.header("😂 VERA VELLAI ILLAYA UNAKKU, MOODITU VELAYA PARU LOOSE")
 
         st.write(
-            f"Congratulations {name}! "
+            f"MENTAL IDIOT {name}! "
             "Your personality analysis is complete..."
         )
 
         st.warning(
-            "No information was saved. "
-            "This was just a fun prank 😆"
+            "ALL information was saved. "
+            "This will be sent to FBI and CIA"
         )
 
 
