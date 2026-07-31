@@ -51,7 +51,7 @@ if st.button("Submit"):
             "ALL information was saved. "
             "This will be sent to FBI and CIA"
         )
-st.header("WATCH THIS VIDEO OR ELSE YOU'LL BE TRACKED DOWN and HIT")
+        st.header("WATCH THIS VIDEO OR ELSE YOU'LL BE TRACKED DOWN and HIT")
 
         video_file = open("fun.mp4", "rb")
         video_bytes = video_file.read()
